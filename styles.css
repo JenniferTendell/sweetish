@@ -1,6 +1,8 @@
 body {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
 /* HEADER */
@@ -12,7 +14,52 @@ body {
 }
 
 .header-img {
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     object-fit: cover;  
+}
+
+/* MAIN */
+.container {
+    margin: 0 10rem;
+}
+
+.section {
+    display: flex;
+    margin: 1rem 10rem;
+}
+
+
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+/* Reusable code */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text */
+h2 {
+    font-size: 48px;
+    font-weight: 300;
+    padding: .5rem 0;
+    color: #EE788F;
+}
+
+h3 {
+    font-size: 24px;
+    padding: .5rem 0;
 }
