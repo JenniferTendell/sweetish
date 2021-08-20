@@ -1,0 +1,18 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* HEADER */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    padding: 1rem 10rem;
+}
+
+.header-img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;  
+}
