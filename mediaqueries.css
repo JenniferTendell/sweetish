@@ -24,6 +24,7 @@
 
     .categories {
         text-align: center;
+        padding: 0 .5rem;
     }
 
     .circles {
@@ -43,7 +44,7 @@
     .image { order: 2;}
 
     .products {
-        padding: 5rem .5rem;
+        padding: 1.5rem .5rem 7rem;
     }
 
     .products-grid {
